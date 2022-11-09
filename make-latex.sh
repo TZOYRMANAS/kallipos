@@ -19,4 +19,4 @@ done
 
 #sed -i '' 's+Figure+Εικόνα+g' ./latex/ch0*
 pandoc -s latex/*.tex -o book.tex
-pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Noto Sans" --variable sansfont="Noto Sans" --variable monofont="Noto Sans" --variable fontsize=12pt --variable version=2.0 book.tex --pdf-engine=xelatex --toc -o book.pdf
+pandoc -N --quiet --variable "geometry=margin=1.2in" --variable mainfont="Nimbus Sans" --variable sansfont="Nimbus Sans" --variable monofont="Nimbus Sans" --variable fontsize=12pt --variable version=2.0 book.tex --pdf-engine=xelatex --toc -o book.pdf
