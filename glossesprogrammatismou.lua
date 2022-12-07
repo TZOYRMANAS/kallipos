@@ -1,4 +1,3 @@
-
 function Image(img)
       if img.classes:find('glossesprogrammatismou',1) then
         local f = io.open("glosses/" .. img.src, 'r')
